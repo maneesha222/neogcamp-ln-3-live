@@ -61,17 +61,21 @@ margin:auto;
 .navigation{
     background-color: #60A5FA;
     color: white;
-    padding:1rem;
+    padding:0.5rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    
 }
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.3rem;
     
+    
 }
 .navigation .nav-pills{
     text-align:right;
+    margin:auto;
+    
 }
 
 .navigation .link{
@@ -80,12 +84,16 @@ margin:auto;
 .navigation .link-active{
     font-weight: bold;
     font-size: 1.3rem;
+   margin:1px;
+
 }
+
 
 .hero{
     padding:2rem;
-    padding-top: 5rem;
+    padding-top: 5rem;  
 }
+
 .hero .hero-image{
    max-width: 350px;
    display: block;
